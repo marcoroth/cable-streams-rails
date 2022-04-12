@@ -2,7 +2,7 @@
 
 This is a Rails helper gem for the [`cable-streams`](https://github.com/marcoroth/cable-streams) NPM package. CableStreams extends Turbo Streams with Custom Turbo Stream Actions and all CableReady operations.
 
-### Installation
+### Installation
 
 ```bash
 bundle add cable_streams
