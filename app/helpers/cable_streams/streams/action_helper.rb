@@ -4,7 +4,9 @@ require "turbo-rails"
 module CableStreams
   module Streams
     module ActionHelper
-      include CableReady::Broadcaster
+      def cable_car
+        Class.new.extend(CableReady::Broadcaster).cable_car
+      end
 
       IGNORE_LIST = [:after, :append, :before, :prepend, :remove, :replace, :update]
 
