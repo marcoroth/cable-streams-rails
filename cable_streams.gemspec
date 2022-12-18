@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "actionpack", ">= 6.0.0"
   s.add_dependency "railties", ">= 6.0.0"
-  s.add_dependency "cable_ready", ">= 5.0.0.pre9"
+  s.add_dependency "cable_ready", ">= 5.0.0"
   s.add_dependency "turbo-rails"
 
   s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
